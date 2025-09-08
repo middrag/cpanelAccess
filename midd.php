@@ -13,7 +13,7 @@ $arr=json_decode($json,true);
 $arr_length =sizeof($arr);    
 
 //$value=$arr['cpanelresult']['data'][5]['db'];
-echo "hi";
+echo "hi mid";
 $second_array=$arr['cpanelresult']['data'];
  $arr_length2 =sizeof($second_array); 
  $arr_db=array();
